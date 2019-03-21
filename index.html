@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+
+
+	<title>Flagger</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+	<script src="JS/jquery.ui.touch-punch.min.js"></script>
+	<script type="text/javascript" src="JS/flagger.js"></script>
+	<link href="flagger.css" rel="stylesheet"/>
+	<link rel="manifest" href="/manifest.json">
+	
+
+</head>
+
+<body>
+
+<div id ="wrapper">
+	
+    <img src="http://upload.wikimedia.org/wikipedia/commons/2/21/Speaker_Icon.svg" id="mute">
+	<audio loop id="BG">
+	<source src="Music/BG.mp3"/>
+	</audio> 
+	<audio id="scoreSFX">
+	<source src="Music/point.mp3"/>
+	</audio> 
+	
+	
+	<div id="content">
+	<img id="logo" src="logo.png">
+	<div id="start" class="button">Start</div></br>
+	<div id ="score" class="button">Score</div>
+	</div>
+	
+	<div id="game">
+	<p id ="timer">30</p>
+	<div id="globe"></div>
+		
+		<div id="slots"></div>
+		<div id="drags"></div>
+		
+	</div>
+	<div id="scoreBoard">
+		<div id="scorelist" class="scoreList">HighScores:<br>
+		1. 000 <br>
+		2. 000 <br>
+		3. 000 <br>
+		4. 000 <br>
+		5. 000 <br>
+		</div>
+		<div id="menu" class="button">Menu</div>
+	</div>
+	<div id="gameOver">
+		<div id="results" class="scoreList">GAME OVER!<br>
+		SCORE: <br>
+		</div>
+		<div id="menu2" class="button">Menu</div>
+	</div>
+</body>
+
+ <p id ="footer">© 2018</p>
+
+</html>

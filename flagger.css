@@ -1,0 +1,243 @@
+/* Kai O'Connor*/
+@font-face {
+  font-family: 'u';
+  src: url('u.ttf'); 
+}
+
+
+body {
+	overflow: hidden;
+	font-size: 11px;
+	color: #373737;
+    font-family: u;
+	background-color: #3292e5;
+	width: 98%;
+	text-align: center;
+
+}
+div#wrapper {
+	width: auto;
+	margin: auto;
+
+}
+
+
+#mute {
+	float: right;
+	margin-right: 5%;
+    height: auto;
+	width: auto;
+    max-width: 10%;
+	filter: invert(100%);
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
+			
+
+}
+#unmute {
+	display: none;
+	float: right;
+	margin-right: 5%;
+    height: auto;
+	width: auto;
+    max-width: 10%;
+	filter: invert(100%);
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
+			
+
+}
+
+img#logo {
+	clear:both;
+	display: block;
+	margin: auto;
+    height: auto;
+	width: auto;
+    max-width: 80%;
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
+	
+	
+}
+div#wrapper {
+	display:none;	
+}
+div#game {
+	display:none;	
+}
+div#gameOver{
+	display:none;	
+}
+div#scoreBoard {
+	display:none;	
+}
+
+img.flag {
+	clear:both;
+	display:block;
+	margin: auto;
+    height: auto;
+	width: auto;
+    max-width: 50%;
+	border-radius: 4%;
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
+	
+	
+	
+}
+div#globe{
+	clear:both;
+	display:inline;
+	background-image:url("globe.png");
+	margin: auto;
+    height: 100vh;
+	width: auto;
+    max-width: 50%;
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
+}
+
+div.button {
+	max-width: 60%;
+	margin: auto;
+    height: 50%;
+	width: 60%;
+	border-radius: 6px;
+	font-size: 400%;
+	color: #ffffff;
+	background-color: #49ef6c;
+	box-shadow: 0px 5px 0px 0px rgba(60,226,95,1);
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
+	
+
+}
+
+.scoreList {
+	margin: auto;
+	margin-top: 15%;
+	margin-bottom: 5%;
+    height: 80%;
+	width: 60%;
+	border-radius: 6px;
+	font-size: 400%;
+	color: #ffffff;
+	background-color: #dedede99;
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
+	
+
+}
+
+div#slots {
+	
+  margin-left: auto;
+  margin-top: 5%;
+	
+
+}
+div#drags {
+	
+  margin-left: auto;
+  margin-top: 5%;
+	
+
+}
+div.slot {
+	display: inline-block;
+	max-width: 10%;
+	min-height: 5.54%;
+	margin: auto;
+	margin-right: 0.5%;
+    height: auto;
+	width: 9.33%;
+	border-radius: 30%;
+	font-size: 320%;
+	color: #ffffff;
+	background-color: #005fb3;
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
+	
+
+}
+div.drag {
+	display: inline-block;
+	max-width: 10%;
+	min-height: 5.54%;
+	margin: auto;
+	margin-right: 0.5%;
+    height: auto;
+	width: 9.33%;
+	border-radius: 30%;
+	font-size: 320%;
+	color: #ffffff;
+	background-color: #42a5fc;
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
+	
+
+}
+div.ui-draggable-dragging {
+  	background-color: #005fb3;
+
+}
+
+div.button:active {
+	background-color: rgba(60,226,95,1);
+	box-shadow: 0px 5px 0px 0px rgba(60,226,95,1);
+}	
+#footer {
+	color: #ffffff;
+    margin: auto;
+	margin-top: 55%;
+    width: 100%;
+	font-size: 200%;
+	position:absolute;
+    bottom:0;
+        }
+#timer {
+	color: #ffffff;
+    margin: auto;
+    width: 100%;
+	font-size: 800%;
+	padding-left: 15%;
+        }
+
